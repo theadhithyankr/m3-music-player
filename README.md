@@ -1,44 +1,67 @@
+<div align="center">
+
 # M3 Music Player
 
-Expo React Native music player with Material 3 styling, playback controls, queue structure, and responsive UI.
+Mobile music player inspired by modern Material-style media controls.
+
+![React](https://img.shields.io/badge/React-20232A?logo=react) ![Expo](https://img.shields.io/badge/Expo-000020?logo=expo) ![React Native](https://img.shields.io/badge/React_Native-20232A?logo=react)
+
+[Repository](https://github.com/theadhithyankr/m3-music-player)
+
+</div>
+
+## Overview
+
+M3 Music Player is a music player project in the TheAdhithyanKR/m3-music-player repository. Expo React Native music player with Material 3 styling, playback controls, queue structure, and responsive UI.
+
+The README was written from the repository contents, including its manifest files, source tree, and available project metadata. The primary manifest is $(System.Collections.Hashtable.Path), and the commands below are taken from its scripts.
 
 ## Key Features
-- Expo React Native music player with Material 3 styling, playback controls, queue structure, and responsive UI
-- Organized UI components and screens make the main user flows visible from the project structure.
-- Existing media assets are referenced only where they are already present in the repository.
-- Package scripts provide reproducible development, build, and preview commands.
+
+- Music playback-oriented screen structure
+- Library or control surfaces for a mobile media app
+- Native mobile project setup for iterative testing
+- UI-focused example of media app composition
 
 ## Tech Stack
-- JavaScript/TypeScript
+
 - React
 - Expo
 - React Native
-- Material 3
 
 ## Project Structure
-- components - reusable UI and workflow components.
-- public / assets - static images, icons, manifests, and visual assets.
 
-## Setup and Run
-```bash
-git clone https://github.com/theadhithyankr/m3-music-player.git
-cd m3-music-player
+`	ext
+.
+|-- app.json
+|-- App.tsx
+|-- assets/adaptive-icon.png
+|-- assets/favicon.png
+|-- assets/icon.png
+|-- assets/splash-icon.png
+|-- index.ts
+|-- metro.config.js
+|-- package.json
+|-- package-lock.json
+|-- README.md
+|-- service.js
+|-- tsconfig.json
+`
+
+## Setup
+
+`ash
 npm install
-npm run start
-npm run android
-npm run ios
-```
-
-## Screenshots and Media
-- Existing asset: assets/adaptive-icon.png
-- Existing asset: assets/favicon.png
-- Existing asset: assets/icon.png
-- Existing asset: assets/splash-icon.png
+npm start
+`
 
 ## What This Project Demonstrates
-- Building user-facing web applications with component-based UI and modern frontend tooling.
-- Structuring a mobile app around reusable screens, assets, and platform run scripts.
-- Presenting project scope, setup, and technical choices clearly for reviewers and recruiters.
 
-## Repository
-- GitHub: https://github.com/theadhithyankr/m3-music-player
+- Ability to turn a focused product idea into a working codebase
+- Practical use of the repository's chosen framework and tooling
+- Attention to deployable structure, repeatable setup, and portfolio-ready presentation
+- Project-specific implementation around music player
+
+## Links
+
+- Repository: [https://github.com/theadhithyankr/m3-music-player](https://github.com/theadhithyankr/m3-music-player)
