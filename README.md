@@ -14,7 +14,7 @@ Mobile music player inspired by modern Material-style media controls.
 
 M3 Music Player is a music player project in the TheAdhithyanKR/m3-music-player repository. Expo React Native music player with Material 3 styling, playback controls, queue structure, and responsive UI.
 
-The README was written from the repository contents, including its manifest files, source tree, and available project metadata. The primary manifest is $(System.Collections.Hashtable.Path), and the commands below are taken from its scripts.
+The README was written from the repository contents, including its manifest files, source tree, and available project metadata. The primary manifest is $(@{Path=package.json; Json=}.Path), and the commands below are taken from its scripts.
 
 ## Key Features
 
@@ -31,7 +31,7 @@ The README was written from the repository contents, including its manifest file
 
 ## Project Structure
 
-`	ext
+```text
 .
 |-- app.json
 |-- App.tsx
@@ -46,14 +46,14 @@ The README was written from the repository contents, including its manifest file
 |-- README.md
 |-- service.js
 |-- tsconfig.json
-`
+```
 
 ## Setup
 
-`ash
+```bash
 npm install
 npm start
-`
+```
 
 ## What This Project Demonstrates
 
